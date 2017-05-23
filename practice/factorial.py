@@ -2,7 +2,6 @@
 def factor(num):
     results = [1]
     max_num = 10000
-    max_len = 4
 
     for current_num in range(2, num + 1):
         remaing = 0
