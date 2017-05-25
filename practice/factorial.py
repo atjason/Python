@@ -22,4 +22,14 @@ def factor(num):
 
     return result_str
 
+def factor2(num):
+    result = 1L
+
+    for i in range(2, num + 1):
+        result *= i
+
+    return result
+
 print factor(10)
+print factor2(10)
+
