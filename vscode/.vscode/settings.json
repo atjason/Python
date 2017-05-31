@@ -1,0 +1,9 @@
+{
+    "python.formatting.provider": "autopep8",
+    "python.unitTest.pyTestEnabled": true,
+    "python.unitTest.unittestEnabled": false,
+    "python.unitTest.nosetestsEnabled": false,
+    "python.unitTest.pyTestArgs": [
+        "."
+    ]
+}
